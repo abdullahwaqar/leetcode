@@ -2,6 +2,7 @@
     "files.associations": {
         "vector": "cpp",
         "list": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "bitset": "cpp"
     }
 }
