@@ -17,7 +17,7 @@ class Solution {
   public:
     void rotate(std::vector<std::vector<int>> &matrix) {
         // * nxn always true
-        std::cout << matrix;
+        // std::cout << matrix;
 
         // * Transpose
         for (int row_idx = 0; row_idx < matrix.size(); row_idx++) {
@@ -38,7 +38,7 @@ class Solution {
             }
         }
 
-        std::cout << matrix;
+        // std::cout << matrix;
     }
 };
 
