@@ -1,9 +1,15 @@
 struct Solution {}
 
 impl Solution {
-    pub fn is_power_of_four(n: i32) -> bool {
-        let log = (n as f64).log(4.0);
-        return n > 0 && log.round() == log;
+    pub fn is_power_of_four(mut n: i32) -> bool {
+        // let log = (n as f64).log(4.0);
+        // return n > 0 && log.round() == log;
+        if n > 1 {
+            while n % 3 == 0 {
+                n /= 3;
+            }
+        }
+        n == 1
     }
 }
 
